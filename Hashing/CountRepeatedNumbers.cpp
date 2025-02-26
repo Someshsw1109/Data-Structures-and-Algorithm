@@ -15,6 +15,11 @@ int main() {
         mp[arr[i]]++;
     }
 
+    // Iterate in the given map
+    for (auto it : mp) {
+        cout << it.first << "->" << it.second << endl;
+    }
+
     int q;
     cin >> q;
     while (q--) {
