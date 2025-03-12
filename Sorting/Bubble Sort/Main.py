@@ -1,9 +1,6 @@
 '''
 Bubble Sort --> Pick the maximum element and place it to the last position.
-
 '''
-
-
 class Solution:
     def BubbleSort(self, arr, n):
         for i in range(n - 1, 0, -1):
@@ -20,3 +17,5 @@ arr = list(map(int, input().split()))
 res = solution.BubbleSort(arr, n)
 print(res)
 # print(arr)
+
+# Time complexity: O(n**2) --> Worst Time Complexity
