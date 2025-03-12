@@ -19,6 +19,3 @@ arr = list(map(int, input().split()))
 res = solution.SelectionSort(arr, n)
 # print(res)
 print(arr)
-
-# Time complexity - O(n**2)
-# This is the best, worst and average time complexity for this particular algorithm....
