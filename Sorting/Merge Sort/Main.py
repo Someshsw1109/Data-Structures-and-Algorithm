@@ -46,3 +46,6 @@ n = int(input())
 arr = list(map(int, input().split()))
 res = solution.MergeSort(arr, n)
 print(res)
+
+
+# Time complexity of this code --- log base 2 n (logn)
